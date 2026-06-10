@@ -45,4 +45,19 @@ class MainActivity : AppCompatActivity() {
         }
         txtResult.text = result.toString()
     }
+
+    val item: Array<String>
+        get() {
+            val arrayOf = String(
+                "Tent"
+                "Marshmallows"
+                "Flashlight"
+            )
+            txtResult.text = item[0]
+        }
+    var total = 0
+    for(item in items)
+    {
+        total += item
+    }
 }

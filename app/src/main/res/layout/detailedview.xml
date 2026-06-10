@@ -1,64 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text=" Item Name"
-        android:translationX="5dp" />
+        android:translationX="5dp"
+        app:autoSizeMinTextSize="14sp" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Category"
-        android:translationX="15dp" />
+        android:translationX="75dp"
+        app:autoSizeMinTextSize="14sp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Quantity"
-        android:translationX="20dp" />
+        android:translationX="100dp"
+        app:autoSizeMinTextSize="14sp" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Comments"
-        android:translationX="25dp" />
+        android:translationX="150dp"
+        app:autoSizeMinTextSize="14sp" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="41dp"
+        android:layout_width="129dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Tent"
-        android:translationX="-180dp"
-        android:translationY="40dp" />
+        android:translationX="-170dp"
+        android:translationY="60dp"
+        app:autoSizeMinTextSize="14sp" />
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="106dp"
+        android:layout_width="135dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Marshmallows"
-        android:translationX="-200dp"
-        android:translationY="80dp" />
+        android:translationX="-230dp"
+        android:translationY="150dp"
+        app:autoSizeMaxTextSize="14sp" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="125dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Flashlight"
-        android:translationX="-300dp"
-        android:translationY="110dp" />
+        android:translationX="-290dp"
+        android:translationY="250dp"
+        app:autoSizeMinTextSize="14sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Back to base"
+        android:translationY="800dp" />
 </LinearLayout>

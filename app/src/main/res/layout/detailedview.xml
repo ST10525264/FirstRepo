@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=" Item Name"
+        android:translationX="5dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Category"
+        android:translationX="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Quantity"
+        android:translationX="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Comments"
+        android:translationX="25dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Tent"
+        android:translationX="-180dp"
+        android:translationY="40dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Marshmallows"
+        android:translationX="-200dp"
+        android:translationY="80dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Flashlight"
+        android:translationX="-300dp"
+        android:translationY="110dp" />
+</LinearLayout>

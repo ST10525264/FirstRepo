@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CampsiteCommander</string>
+    <string name="item_name">Item name</string>
 </resources>
